@@ -24,9 +24,9 @@ while ($linha = $retorno->fetch_assoc()){
     echo "<tr>
     <td>$nome</td>
     <td class='text-center' ><a href='responder-enquete.php?id-enquete=$id'
-    class='btn btn-outline-primary btn-sm'>==</a></td>
+    class='btn btn-outline-primary btn-sm'>✒</a></td>
     <td class='text-center' ><a href='resultado-enquete.php?id-enquete=$id'
-    class='btn btn-outline-primary btn-sm'>==</a></td>
+    class='btn btn-outline-primary btn-sm'>✔</a></td>
     </tr>";
 }
 ?>
