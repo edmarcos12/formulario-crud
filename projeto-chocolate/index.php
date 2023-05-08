@@ -14,6 +14,7 @@
         .card{
             float: left;
             margin: 10px;
+            width: 300px;
         }
         h2{
             text-align: center;
